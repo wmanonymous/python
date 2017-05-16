@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+def add(a,b)
+    print"ADDING: %d+%d"%(a,b)
+    return a+b
 
-You can use the [editor on GitHub](https://github.com/wmanonymous/python/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+def subtract(a,b):
+    print "SUBTRACTING: %d -%d"%(a,b)
+    return a-b
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+def mutiply(a,b):
+    print"MUTIPLYING: %d*%d"%(a,b)
+    return a*b
 
-### Markdown
+def divide(a,b):
+    print"DIVIDING: %d/%d"%(a,b)
+    return a/b
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+print"Let's do some math with just funtinons!"
 
-```markdown
-Syntax highlighted code block
+age=add(30,5)
+height=subtract(78,4)
+weight=mutiply(90,2)
+iq=divide(100,2)
 
-# Header 1
-## Header 2
-### Header 3
+print "Age:%d,Height%d,weight%d,IQ:%d"%(age,height,weight,iq)
 
-- Bulleted
-- List
+#A puzzle for the extra credit,type it in anyway.
+print"Here's a puzzle."
 
-1. Numbered
-2. List
+what=add(age,subtract(height,mutiply(weight,divide(iq,2))))
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wmanonymous/python/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+print"That becomes:",what,"Can you do it by hand?"
